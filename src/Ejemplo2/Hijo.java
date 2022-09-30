@@ -9,7 +9,7 @@ public class Hijo {
 
         BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 
-        String lineas = br.readLine();
+        String lineas = br.readLine();// 1 LEE DE SU ENTRADA STANDAR
         int numero=Integer.parseInt(lineas);
         for (int i = 0; i <= numero; i++) {
             System.out.printf("Linea numero %d %n",i);
